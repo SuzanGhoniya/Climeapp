@@ -3,8 +3,8 @@ require("dotenv").config()
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Clime forcast`,
-    siteUrl: `https://clime-forecast.web.app`,
+    title: `Climeapp`,
+    siteUrl: `/`,
     description: `Weather app`,
     twitterUsername: `@gatsbyjs`,
     image: `./src/images/icon.png`,
@@ -20,8 +20,8 @@ const config: GatsbyConfig = {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/images/icon.png",
-        name: `Clime forecast`,
-        short_name: `Clime Forecast`,
+        name: `Climeapp`,
+        short_name: `Climeapp`,
         description: `Weather Forecasr webapp`,
         lang: `en`,
         start_url: `/`,
