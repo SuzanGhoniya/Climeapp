@@ -4,7 +4,7 @@ require("dotenv").config()
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Climeapp`,
-    siteUrl: `climeapp.vercel.app`,
+    siteUrl: `https://climeapp.vercel.app`,
     description: `Weather app`,
     twitterUsername: `@gatsbyjs`,
     image: `./src/images/icon.png`,
